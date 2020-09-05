@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;600;800&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet');
+
+#parallaxImg{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 99.97%, rgba(0, 0, 0, 0.4) 99.98%, rgba(0, 0, 0, 0.942708) 99.99%, rgba(0, 0, 0, 0) 100%), url('parallax.jpg'), no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+
+#parallaxImg h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;;
+    font-weight: 300;
+    font-size: 90px;
+}
+
+#homepageForm{
+    width: 50%
+}
+
+#homepageForm input{
+    height: 50px;
+}
+#homepageForm button{
+    margin-left: 20px;
+}
+
+.article{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #D9DCD6;
+}
+
+.articleText{
+    width: 50%;
+    padding: 50px;
+}
+
+.article h1{
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.article p{
+    font-family: 'Maven Pro', sans-serif;
+    text-align: left;
+}
+
+.prominent{
+    color: #FF6663;
+}
+
+#secondParallax{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 99.97%, rgba(0, 0, 0, 0.4) 99.98%, rgba(0, 0, 0, 0.942708) 99.99%, rgba(0, 0, 0, 0) 100%), url('parallax2.jpg'), no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    width: 100%;
+    margin: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+
+#secondParallax h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 90px;
+}
+
+#services{
+    padding: 50px;
+}
+
+.cardHolder{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#services h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    padding: 20px;
+}
+
+.service{
+    width: 500px;
+    margin: 50px;
+    color: #FF6663;
+}
+
+.serviceIcon{
+    font-size: 30px;
+} 
+
+.service h2{
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 10px;
+}
+
+.service p{
+    font-family: 'Maven Pro', sans-serif;
+    color: black;
+}
+
+@media only screen and (max-width: 1000px){
+    #homepageForm{
+        width: 100%;
+    }
+
+    .articleText{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    #homepageForm{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    #homepageForm input{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #homepageForm .input-group-append{
+        margin: auto;
+    }
+    #homepageForm button{
+        margin: 10px;
+    }
+}

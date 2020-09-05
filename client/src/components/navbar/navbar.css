@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;600;800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap" rel="stylesheet');
+
+nav{
+    background-color: white;
+}
+nav .navbar-brand {font-size: 30px;}
+nav .navbar-toggle {margin: 13px 15px 13px 0;}
+
+nav .navbar-toggler{
+    color: #FF6663;
+    outline: none;
+    border: none;
+    font-size: x-large;
+}
+
+nav .navbar-toggler:active{
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+nav a {
+    font-family: 'Roboto', sans-serif;
+    color: #FF6663;
+    font-size: 20px;
+    padding-bottom: 20px !important;
+    padding-top: 20px !important;
+    margin-right: 30px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover{
+    color: #6E0D25;
+    background-color: #FF6663;
+}
+
+.navbar-text{
+    font-family: 'Playfair Display', serif;
+    color: #FF6663;
+    font-size: 30px;
+}

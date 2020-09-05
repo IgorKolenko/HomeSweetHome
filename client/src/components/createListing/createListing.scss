@@ -1,0 +1,38 @@
+#listingBody{
+    background-color: #201A23 !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    form{
+        min-width: 380px;
+        width: 50%;
+        padding: 15px 35px 45px;
+        margin: auto;
+        background-color: #fff;
+        border: 1px solid rgba(0,0,0,0.1);
+    }
+
+    h1{
+        font-family: 'Roboto', sans-serif;
+    }
+
+    label{
+        float: left;
+        text-align: left;
+    }
+
+    .garden-form{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .listing-type{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+}
+
